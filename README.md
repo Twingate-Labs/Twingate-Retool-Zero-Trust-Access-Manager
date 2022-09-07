@@ -1,7 +1,7 @@
 # Prerequisites
 * A [Twingate](https://www.twingate.com/) account (Signup for free at https://auth.twingate.com/signup)
 * A [Retool](https://retool.com/) account
-* A [Google Drive](https://drive.google.com/) space
+* A [Google Sheet Space](https://docs.google.com/spreadsheets) 
 
 # Setup Steps
 Follow the steps below.
@@ -30,7 +30,26 @@ Note: The Twingate API key can be generated in the Twingate Admin Console.
 ### Create New Retool Apps
 Create three new apps using the Retool "Create New From JSON", one for each downloaded JSON file.
 
-<img width="370" alt="Screenshot 2022-09-07 at 11 40 22" src="https://user-images.githubusercontent.com/26305563/188858743-63b1ba94-5275-4954-993a-f24b8ed58de9.png">
+<img width="400" alt="Screenshot 2022-09-07 at 11 40 22" src="https://user-images.githubusercontent.com/26305563/188858743-63b1ba94-5275-4954-993a-f24b8ed58de9.png">
 
 ### Setup The Apps
+
+##### Twingate Zero Trust Access Manager - Admin
+Change the resource to the previously created resource `Twingate API` for the following queries:
+* getAllGroups
+* getAllUsers
+
+<img width="500" alt="Screenshot 2022-09-07 at 11 51 45" src="https://user-images.githubusercontent.com/26305563/188861068-32661443-ca73-4973-8da4-cf4d4510e925.png">
+
+Change the resource to the previously created resource `Twingate Zero Trust Access Manager Database` and spreadsheet to the previously created Google Sheet `Twingate Zero Trust Access Manager Google Sheet` for the following queries:
+* getAllOwners
+* updateRemoveOwner
+* updateAddOwner
+* updateAddOwnerNewRow
+
+<img width="800" alt="Screenshot 2022-09-07 at 11 53 59" src="https://user-images.githubusercontent.com/26305563/188862338-a95ea2e7-d064-48b8-958a-36d8c37d48e2.png">
+<img width="800" alt="Screenshot 2022-09-07 at 11 56 13" src="https://user-images.githubusercontent.com/26305563/188862385-d259379a-fb08-4339-b2ef-a8faa913f38d.png">
+
+Note: make sure no other configurations of these queries are changed.
+
 
