@@ -32,7 +32,7 @@ Create three new apps using the Retool "Create New From JSON", one for each down
 
 ### Setup The Apps
 
-##### Twingate Zero Trust Access Manager - Admin
+#### Twingate Zero Trust Access Manager - Admin
 Change the resource to the previously created resource `Twingate API` for the following queries:
 * getAllGroups
 * getAllUsers
@@ -51,7 +51,7 @@ Change the resource to the previously created resource `Twingate Zero Trust Acce
 Note: make sure no other configurations of these queries are changed.
 
 
-##### Twingate Zero Trust Access Manager - User Dashboard
+#### Twingate Zero Trust Access Manager - User Dashboard
 Change the resource to the previously created resource `Twingate API` for the following queries:
 * getAllGroups
 * getAllUsers
@@ -62,7 +62,7 @@ Change the resource to the previously created resource `Twingate Zero Trust Acce
 * updateAddRequest
 
 
-##### Twingate Zero Trust Access Manager - Group Owner Dashboard
+#### Twingate Zero Trust Access Manager - Group Owner Dashboard
 Change the resource to the previously created resource `Twingate API` for the following queries:
 * getAllGroups
 * addUserToGroupMutation
