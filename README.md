@@ -1,3 +1,8 @@
+# Introduction
+This is an example [Retool](https://retool.com/) project that includes 3 Retool Apps to demonstrate just-in-time access management using the Twingate API. Retool is a low-code software platform designed to allow organisations to create internal apps with minimal effort.
+
+Using these apps a organisation can designate owners for Twingate groups and allow users to request access to those groups. These apps are intended to showcase the capabilities of the Twingate API as well as provide a starting point for organisations to develop Zero Trust access flows according to their bespoke requirements.
+
 # Prerequisites
 * A [Twingate](https://www.twingate.com/) account (Signup for free at https://auth.twingate.com/signup)
 * A [Retool](https://retool.com/) account
