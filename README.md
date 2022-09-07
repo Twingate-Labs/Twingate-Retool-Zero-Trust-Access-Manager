@@ -7,9 +7,9 @@
 Follow the steps below.
 
 ### Create New Google Sheet
-• Create new Google Sheet with name `Twingate Zero Trust Access Manager Google Sheet` 
-• Create two tabs in the sheet `Owners` and `Requests`
-• Alternatively, make a copy of this [Google Sheet](https://docs.google.com/spreadsheets/d/1PqlsEM5fML0RZpjA8ZNfd2Im6F6EuUiIalGgPoZVhOo/edit?usp=sharing)
+* Create new Google Sheet with name `Twingate Zero Trust Access Manager Google Sheet` 
+* Create two tabs in the sheet `Owners` and `Requests`
+* Alternatively, make a copy of this [Google Sheet](https://docs.google.com/spreadsheets/d/1PqlsEM5fML0RZpjA8ZNfd2Im6F6EuUiIalGgPoZVhOo/edit?usp=sharing)
 
 ### Create New Retool Resource
 Create new Google Sheets resource with the following configurations.
