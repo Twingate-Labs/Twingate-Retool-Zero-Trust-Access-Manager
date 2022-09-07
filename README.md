@@ -23,3 +23,7 @@ Create new GraphQL resource with the following configurations.
 Note: The Twingate API key can be generated in the Twingate Admin Console.
 
 ### Create New Retool App
+Download the latest release
+* [Twingate Zero Trust Access Manager - Admin.json](https://github.com/Twingate-Labs/Twingate-Retool-Zero-Trust-Access-Manager/releases/latest/download/Twingate.Zero.Trust.Access.Manager.-.Admin.json)
+* [Twingate Zero Trust Access Manager - User Dashboard.json](https://github.com/Twingate-Labs/Twingate-Retool-Zero-Trust-Access-Manager/releases/latest/download/Twingate.Zero.Trust.Access.Manager.-.User.Dashboard.json)
+* [Twingate Zero Trust Access Manager - Group Owner Dashboard.json](https://github.com/Twingate-Labs/Twingate-Retool-Zero-Trust-Access-Manager/releases/latest/download/Twingate.Zero.Trust.Access.Manager.-.Group.Owner.Dashboard.json)
