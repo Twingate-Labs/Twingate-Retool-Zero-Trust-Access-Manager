@@ -13,6 +13,7 @@ Follow the steps below.
 
 ##### Retool Resource
 Create new Google Sheets resource with the following configurations:
-<img width="1048" alt="Screenshot 2022-09-06 at 16 29 08" src="https://user-images.githubusercontent.com/26305563/188854692-ace3e183-86dd-48d0-9c9d-8e25be857512.png">
+<img width="500" alt="Screenshot 2022-09-06 at 16 29 08" src="https://user-images.githubusercontent.com/26305563/188854692-ace3e183-86dd-48d0-9c9d-8e25be857512.png">
 
 Create new GraphQL resource with the following configurations:
+<img width="500" alt="Screenshot 2022-09-06 at 16 43 41" src="https://user-images.githubusercontent.com/26305563/188855158-66610a7a-bde7-4ff5-bcd0-fd5cd861750c.png">
