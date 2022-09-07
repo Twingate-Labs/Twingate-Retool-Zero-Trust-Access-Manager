@@ -4,8 +4,6 @@
 * A [Google Sheet Space](https://docs.google.com/spreadsheets) 
 
 # Setup Steps
-Follow the steps below.
-
 ### Create New Google Sheet
 * Create new Google Sheet with name `Twingate Zero Trust Access Manager Google Sheet` 
 * Create two tabs in the sheet `Owners` and `Requests`
