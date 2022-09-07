@@ -53,3 +53,42 @@ Change the resource to the previously created resource `Twingate Zero Trust Acce
 Note: make sure no other configurations of these queries are changed.
 
 
+##### Twingate Zero Trust Access Manager - User Dashboard
+Change the resource to the previously created resource `Twingate API` for the following queries:
+* getAllGroups
+* getAllUsers
+
+Change the resource to the previously created resource `Twingate Zero Trust Access Manager Database` and spreadsheet to the previously created Google Sheet `Twingate Zero Trust Access Manager Google Sheet` for the following queries:
+* getAllOwners
+* getAllRequests
+* updateAddRequest
+
+
+##### Twingate Zero Trust Access Manager - Group Owner Dashboard
+Change the resource to the previously created resource `Twingate API` for the following queries:
+* getAllGroups
+* addUserToGroupMutation
+
+Change the resource to the previously created resource `Twingate Zero Trust Access Manager Database` and spreadsheet to the previously created Google Sheet `Twingate Zero Trust Access Manager Google Sheet` for the following queries:
+* getAllOwners
+* getAllRequests
+* updateApproveRequestStatus
+* updateDenyRequestStatus
+
+# High Level Architecture
+### Twingate Zero Trust Access Manager - Admin
+The app is used to add/revoke group ownerships. Only admin users should have the permission to this app. The SYNCED groups (e.g. Okta synced groups) are not shown within this app. The group ownership details are stored in the Google Sheet (Owners tab).
+
+### Twingate Zero Trust Access Manager - User Dashboard
+The app can be used by users to request access to Twingate groups. The user can only make a request to groups that:
+* they are not a member of
+* has at least one owner
+
+The request is stored in the Google Sheet (Requests tab). Further, the user's request status is also shown within this app. 
+
+
+### Twingate Zero Trust Access Manager - User Dashboard
+The app can be used by group owners to approve or reject requests. The group owners can only approve/reject requests that they are owner of.
+
+The Twingate API (GraphQL mutation) is used to add the user to the Twingate group if the request is approved. The Google Sheet would also be updated (Requests tab) to reflex the request is approved/rejected.
+
