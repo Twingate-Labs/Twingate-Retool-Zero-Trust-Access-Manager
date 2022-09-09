@@ -17,7 +17,9 @@ Using these apps an organisation can designate owners for Twingate groups and al
 ### Create New Retool Resource
 Create new Google Sheets resource with the following configurations.
 
-<img width="700" alt="Screenshot 2022-09-06 at 16 29 08" src="https://user-images.githubusercontent.com/26305563/188854692-ace3e183-86dd-48d0-9c9d-8e25be857512.png">
+<img width="700" alt="Screenshot 2022-09-09 at 10 43 58" src="https://user-images.githubusercontent.com/26305563/189322017-0e3ab52e-7d49-404d-aa1f-f631d3db43a9.png">
+
+
 
 Create new GraphQL resource with the following configurations.
 
