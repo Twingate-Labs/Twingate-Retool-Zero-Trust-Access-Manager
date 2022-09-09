@@ -69,7 +69,6 @@ Change the resource to the previously created resource `Twingate Zero Trust Acce
 
 #### Twingate Zero Trust Access Manager - Group Owner Dashboard
 Change the resource to the previously created resource `Twingate API` for the following queries:
-* getAllGroups
 * addUserToGroupMutation
 
 Change the resource to the previously created resource `Twingate Zero Trust Access Manager Database` and spreadsheet to the previously created Google Sheet `Twingate Zero Trust Access Manager Google Sheet` for the following queries:
