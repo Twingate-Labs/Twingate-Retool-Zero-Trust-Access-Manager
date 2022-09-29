@@ -61,7 +61,7 @@ Note: make sure no other configurations of these queries are changed.
 #### Twingate Zero Trust Access Manager - User Dashboard
 Change the resource to the previously created resource `Twingate API` for the following queries:
 * getAllGroups
-* getAllUsers
+* getUserInfo
 
 Change the resource to the previously created resource `Twingate Zero Trust Access Manager Database` and spreadsheet to the previously created Google Sheet `Twingate Zero Trust Access Manager Google Sheet` for the following queries:
 * getAllOwners
